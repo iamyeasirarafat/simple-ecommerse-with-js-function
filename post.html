@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
+        <div class="container">
         <header> 
             <nav class="navbar navbar-expand-lg navbar-light py-5">
             <a class="navbar-brand" href="#"
@@ -50,14 +50,28 @@
             </div>
           </nav>
         </header>
-        <main>
+          <main class="container">
             <h2 class="text-center ">Fill the items below for post a product</h2>
             <div class="mb-3">
-                <label for="formFile" class="form-label">Default file input example</label>
-                <input class="form-control" type="file" id="formFile">
+                <label for="formFile" class="form-label">We dont accept image files at this moment</label>
+                <input disabled  class="form-control" type="file" id="formFile">
               </div>
-              <img src="C:\\fakepath\\jacket-3.png" alt="">
-        </main>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name of product</label>
+                <input id="productName" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Type your product name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Product Details</label>
+                <textarea id="productDetails" type="text" class="form-control" id="exampleFormControlInput1" placeholder="your product details will be here"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name of product</label>
+                <input id="productPrice" type="number" class="form-control" id="exampleFormControlInput1" placeholder="Price">
+              </div>
+              <button id="postButton" class="btn btn-primary">Post</button>
+          </main>
     </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
