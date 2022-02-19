@@ -13,7 +13,7 @@
   <body>
     <header class="container-fluid" style="background: rgba(255, 251, 240, 1)">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light py-5">
+        <nav class="navbar fixed-top bg-light navbar-expand-lg navbar-light py-2 " >
           <a class="navbar-brand" href="#"
             ><img src="icons/Group 33072.png" width="291" alt=""
           /></a>
@@ -46,12 +46,12 @@
               </li>
               <li class="nav-item me-5 position-relative">
                 <a class="nav-link" href="#"><img class="" src="icons/shopping-cart.png" width="30" style="color:black" alt=""></a>
-                <span class="bg-danger text-white px-2 py-1 rounded-pill position-absolute" style="top: -8px;right: -13px;font-size: 12px;">0</span>
+                <span id="cart" class="bg-danger text-white px-2 py-1 rounded-pill position-absolute" style="top: -8px;right: -13px;font-size: 12px;">0</span>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="banner">
+        <div class="banner mt-5">
           <div class="row">
             <div class="col-lg-5 banner-content">
               <h1>
@@ -62,9 +62,9 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Accusamus nostrum nobis vitae ducimus iste libero?
               </p>
-              <a href="" class="btn"
+              <button href="" class="btn"
                 ><img src="icons/shopping-cart 1.png" width="24" alt="" />BUY
-                NOW</a
+                NOW</button
               >
             </div>
             <div class="col-lg-7 banner-img">
@@ -74,7 +74,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="mb-5">
       <section class="woman">
         <div class="container">
           <h2>woman Jacket</h2>
@@ -89,12 +89,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -109,12 +109,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -129,12 +129,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -152,12 +152,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -172,12 +172,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -192,12 +192,12 @@
                 </p>
                 <div class="price">
                   <h3>$230</h3>
-                  <a href="" class="btn"
+                  <button href="" class="btn"
                     ><img
                       src="icons/shopping-cart 1.png"
                       width="24"
                       alt=""
-                    />BUY NOW</a
+                    />BUY NOW</button
                   >
                 </div>
               </div>
@@ -206,10 +206,10 @@
         </div>
       </section>
     </main>
-   
 
 
     <!-- bootstrap js  -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
